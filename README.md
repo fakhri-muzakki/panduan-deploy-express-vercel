@@ -9,6 +9,8 @@ import  app  from  "../src/app.js";
 export  default  app;
 ```
 
+---
+
 ## 2. Pastikan di index.js atau app.js itu 
 ```js
   const  app  =  express();
@@ -22,6 +24,8 @@ export  default  app;
 // console.log(`🚀 Server running on http://localhost:${PORT}`);
 // });
 ```
+---
+
 ## 3. Buat file vercel.json di root project
 ```json
 {
@@ -42,6 +46,8 @@ export  default  app;
 }
 ```
 
+---
+
 ## 4 Tambah atau ubah script di package.json
 ```js
 "scripts": {
@@ -50,8 +56,12 @@ export  default  app;
 },
 ```
 
+---
+
 ## 5. Selesai
 - Tinggal push ke github dan import di vercel
+
+---
 
 ## Catatan
 - kalo ingin jalankan di local, kamu harus menginstall vercel di local tanya ai saja caranya bagaimana
